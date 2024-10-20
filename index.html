@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Manoj R</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li> <!-- Ensure this links to the projects section -->
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Manoj</span><br> Data Analyst</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://linkedin.com/in/manoj-r-a8141b154" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Manoj-144" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <img src="IMG_0523.JPG" alt="Profile Image" class="home__square-img"> <!-- Add your new image here -->
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid section-box">  
+                    <div>
+                        <h2 class="about__subtitle">I'am Manoj</h2>
+                        <p class="about__text">Third-year B.Tech student specializing in Big Data Analytics at SRM Institute of Science and Technology. Passionate about data-driven solutions, with hands-on experience in tools like Python, Excel, and MySQL. Aspiring to become a Big Data Analyst or Scientist, eager to apply my skills to real-world challenges. Actively exploring trends in data science to drive innovation and impact across industries. Open to connecting with professionals and organizations in the Big Data space.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== EDUCATION =====-->
+            <section class="education section" id="education">
+                <h2 class="section-title">Education</h2>
+
+                <div class="education__container bd-grid section-box">
+                    <!-- First Education Entry -->
+                    <div class="education__content">
+                        <div class="education__year">2008 - 2022</div>
+                        <div class="education__details">
+                            <h3 class="education__degree">DAV Boys Senior Secondary School, Mogappair, Chennai</h3>
+                            <p class="education__cgpa">CGPA: 8.9</p>
+                        </div>
+                    </div>
+
+                    <!-- Second Education Entry -->
+                    <div class="education__content">
+                        <div class="education__year">2022 - 2026</div>
+                        <div class="education__details">
+                            <h3 class="education__degree">SRM Institute of Science and Technology, Ramapuram, Chennai</h3>
+                            <p class="education__school">B.Tech Computer Science Engineering with specialization in Big Data Analytics</p>
+                            <p class="education__cgpa">CGPA: 9.5</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+            <!--===== EXPERIENCE =====-->
+            <section class="experience section" id="experience">
+                <h2 class="section-title">Experience</h2>
+
+                <div class="experience__container bd-grid section-box">
+                    <!-- First Experience Entry -->
+                    <div class="experience__content">
+                        <div class="experience__year">Jun 2024 - Jul 2024</div>
+                        <div class="experience__details">
+                            <h3 class="experience__role">Intern</h3>
+                            <h2 class="experience__company">Fresa Technologies, Chennai</h2>
+                            <ul class="experience__responsibilities">
+                                <li>Developed and deployed web applications using Oracle APEX.</li>
+                                <li>Utilized MySQL to manage and manipulate data, ensuring seamless integration with Oracle APEX applications.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid section-box">          
+                    <div>
+                        <br></br>
+                        <div class="skills__box">
+                            <span class="skills__name">Python</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <span class="skills__name">MySQL</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <span class="skills__name">Tableau</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <span class="skills__name">Excel</span>
+                        </div>
+                        <br></br>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--===== PROJECTS =====-->
+            <section id="projects" class="section">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects__container bd-grid section-box">
+
+                    <!-- Existing Project 1 -->
+                    <div class="projects__item project-1">
+                        <div class="projects__img-container">
+                            <div class="projects__img-carousel" id="carousel1">
+                                <img src="APD.png" alt="Project Image 1" class="carousel-img" id="carousel-img1-1">
+                                <img src="AP2.png" alt="Project Image 2" class="carousel-img" id="carousel-img1-2" style="display:none;">
+                                <img src="AP1.png" alt="Project Image 3" class="carousel-img" id="carousel-img1-3" style="display:none;">
+                            </div>
+                        </div>
+                        <div class="projects__description">
+                            <h3 class="projects__title">Apple Vs Foxconn Stock Analysis</h3>
+                            <p class="projects__text">
+                                This project analyzes stock trends of Apple and Foxconn using Python for data cleaning and analysis, 
+                                and Tableau for interactive visualizations. Key processes include data collection, preprocessing, 
+                                exploratory data analysis (EDA), and generating dashboards that reveal insights on stock volatility, 
+                                seasonal trends, and how product launches affect both companies' stock prices.
+                            </p>
+                            <a href="https://github.com/Manoj-144/Apple-VS-Foxconn-Stock-Analysis" target="_blank" class="button">View on GitHub</a>
+                        </div>
+                    </div>
+
+                    <!-- New Project 2 -->
+                    <!-- <div class="projects__item project-2"> -->
+                        <!-- <div class="projects__img-container"> -->
+                            <!-- <div class="projects__img-carousel" id="carousel2"> -->
+                                <!-- <img src="APD.png" alt="Project Image 1" class="carousel-img" id="carousel-img2-1"> -->
+                                <!-- <img src="AP2.png" alt="Project Image 2" class="carousel-img" id="carousel-img2-2" style="display:none;"> -->
+                                <!-- <img src="AP1.png" alt="Project Image 3" class="carousel-img" id="carousel-img2-3" style="display:none;"> -->
+                            <!-- </div> -->
+                        <!-- </div> -->
+                        <!-- <div class="projects__description"> -->
+                            <!-- <h3 class="projects__title">Apple Vs Foxconn Stock Analysis</h3> -->
+                            <!-- <p class="projects__text"> -->
+                                <!-- This project analyzes stock trends of Apple and Foxconn using Python for data cleaning and analysis,  -->
+                                <!-- and Tableau for interactive visualizations. Key processes include data collection, preprocessing,  -->
+                                <!-- exploratory data analysis (EDA), and generating dashboards that reveal insights on stock volatility,  -->
+                                <!-- seasonal trends, and how product launches affect both companies' stock prices. -->
+                            <!-- </p> -->
+                            <!-- <a href="https://github.com/Manoj-144" target="_blank" class="button">View on GitHub</a> -->
+                        <!-- </div> -->
+                    <!-- </div> -->
+
+                <!-- </div> -->
+            </section>
+
+
+
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid section-box">
+                    <div class="contact__info">
+                        <div class="contact__box">
+                            <p class="contact__label">Email:</p>
+                            <p class="contact__text"><a href="mailto:manojr01042004@gmail.com">manojr01042004@gmail.com</a></p>
+                        </div>
+                        <div class="contact__box">
+                            <p class="contact__label">Phone:</p>
+                            <p class="contact__text"><a href="tel:+916382102052">+91 6382102052</a></p>
+                        </div>
+                        <div class="contact__box">
+                            <p class="contact__label">Address:</p>
+                            <p class="contact__text">Annanur, Chennai, Tamil Nadu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__social">
+                    <a href="https://wa.me/916382102052" class="footer__icon"><i class='bx bxl-whatsapp' ></i></a>
+                    <a href="https://www.instagram.com/_manoj.xd/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://x.com/manoj_xD" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                </div>
+            </section>
+        </main>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="main.js"></script>
+    </body>
+</html>
